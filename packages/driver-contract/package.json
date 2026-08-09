@@ -1,0 +1,12 @@
+{
+  "name": "@prt/driver-contract",
+  "version": "0.5.0-rc.2",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@prt/event-v1": "0.1.0"
+  }
+}
