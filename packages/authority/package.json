@@ -1,0 +1,18 @@
+{
+  "name": "@prt/authority",
+  "version": "0.3.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@prt/jcs-digest": "0.1.0",
+    "@prt/event-v1": "0.1.0",
+    "@prt/command-digest": "0.1.0",
+    "@prt/fold-core": "0.1.0",
+    "better-sqlite3": "^11.10.0",
+    "@prt/export-v1": "0.2.0",
+    "@prt/driver-contract": "0.5.0-rc.2"
+  }
+}
