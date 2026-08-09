@@ -1,0 +1,25 @@
+{
+  "name": "process-runtime",
+  "private": true,
+  "version": "0.5.0-rc.3",
+  "description": "Canonical specification + standalone conformance harness for governed institutional Processes. Reference runtime included and replaceable.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test.mjs",
+    "acceptance": "node scripts/acceptance.mjs"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^20.19.43",
+    "fast-check": "^3.23.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
