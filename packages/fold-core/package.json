@@ -1,0 +1,13 @@
+{
+  "name": "@prt/fold-core",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@prt/jcs-digest": "0.1.0",
+    "@prt/event-v1": "0.1.0"
+  }
+}
